@@ -2,7 +2,7 @@
 O propósito deste projeto é criar uma evolução de funcionalidades em cima do projeto do JupyterLab, para atender as necessidades dos clientes Gutenberg que utilizam a Plataforma de Machine Learning para análises e criações dos seus modelos.</p>
 
 ## Dependências:</p>
-Necessário instalações do Jupyter-notebook e Jupyter-lab inicialmente. Para melhor entendimento, é importante destacar que temos o jupyter-notebook e para a sua evolução foi criado o jupyter-lab, que adiciona uma camada de funcionalidades sobre o notebook. Neste projeto, o objetivo é criar uma camada a mais de extensões sobre o jupyter-lab. Teremos a seguinte estrutura, considerando camadas:</p>
+Necessário instalações do **Jupyter-notebook e Jupyter-lab** inicialmente. Para melhor entendimento, é importante destacar que temos o jupyter-notebook e para a sua evolução foi criado o jupyter-lab, que adiciona uma camada de funcionalidades sobre o notebook. Neste projeto, o objetivo é criar uma camada a mais de extensões sobre o jupyter-lab. Teremos a seguinte estrutura, considerando camadas:</p>
 - Camada 1: Jupyter-Notebook;</p>
 - Camada 2: Jupyter-Lab;</p>
 - Camada 3: Jupyter-Lab-extensions ou **"GutenLab"**;</p>
@@ -17,6 +17,7 @@ Para realizarmos a evolução, será necessário o entendimento da linguagem Typ
 - O principal motivo para a utilização do TypeScript, mesmo com a evolução do Javascript ocorre devido a sua tipagem, ou seja, acrescentamos os tipos dos dados juntamente com o código o que "força" o formato correto.</p>
 
 ## Instalações - Configurações</p>
+
 
 
 
