@@ -1,7 +1,7 @@
 {
-  "name": "@jupyterlab-examples/main-menu",
+  "name": "@jupyterlab-examples/launcher",
   "version": "0.1.0",
-  "description": "Minimal JupyterLab example adding a menu.",
+  "description": "A minimal JupyterLab example using the launcher.",
   "keywords": [
     "jupyter",
     "jupyterlab",
@@ -35,8 +35,9 @@
   },
   "dependencies": {
     "@jupyterlab/application": "^2.0.0",
-    "@jupyterlab/mainmenu": "^2.0.0",
-    "@lumino/widgets": "^1.9.3"
+    "@jupyterlab/filebrowser": "^2.0.0",
+    "@jupyterlab/launcher": "^2.0.0",
+    "@jupyterlab/mainmenu": "^2.0.0"
   },
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^2.21.0",
@@ -50,7 +51,8 @@
     "typescript": "~3.7.5"
   },
   "sideEffects": [
-    "style/*.css"
+    "style/*.css",
+    "style/*.svg"
   ],
   "jupyterlab": {
     "extension": true
