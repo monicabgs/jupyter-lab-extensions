@@ -18,6 +18,23 @@ Para realizarmos a evolução, será necessário o entendimento da linguagem Typ
 
 ## Instalações - Configurações</p>
 
+1. Criando estrutura do projeto e suas inicializações com dependências
+```bash
+mkdir main-menu
+cd main-menu
+touch index.ts
+yarn init -y            #inicializando projeto
+yarn add -D typescript  #Adicionando o typescript como dependência
+
+```
+
+- Instalando o Node e NPM:</p>
+```bash
+sudo apt update
+sudo apt install nodejs #Ambiente de execução Javascript
+sudo apt install npm    #Gerenciador de pacotes do nodejs
+```
+
 
 
 
